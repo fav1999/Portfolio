@@ -66,6 +66,7 @@ body {
 .nav {
   display: flex;
   height: 100%;
+  align-items: center;
 }
 
 .nav__link {
@@ -75,11 +76,14 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   text-decoration: none;
-  background-color: 2px solid transparent;
   border-radius: 2rem;
-  transition: background-color 0.35s;
+  transition: background-color 0.3s linear;
 }
-.nav__link:hover {
+.nav__link:hover:not(.nav__link--btn) {
+  background-color: #2b2a2c;
+  color: #fff;
+}
+.nav__link--btn {
   background-color: #2b2a2c;
   color: #fff;
 }/*# sourceMappingURL=style.css.map */

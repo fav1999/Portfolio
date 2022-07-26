@@ -1,6 +1,7 @@
 .nav {
     display: flex;
     height: 100%;
+    align-items: center;
 }
 
 .nav__link {
@@ -11,13 +12,18 @@
     font-weight: 700;
     text-decoration: none;
 
-    background-color: 2px solid transparent;
-    border-radius: 2rem;
-    transition: background-color .35s;
 
-    &:hover {
+    border-radius: 2rem;
+    transition: background-color .3s linear;
+
+
+    &:hover:not(.nav__link--btn) {
         background-color: $black;
         color: $white;          
     } 
 
+    &--btn {        
+        background-color: $black;        
+        color: $white;
+    }
 }
