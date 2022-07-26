@@ -1,0 +1,23 @@
+@import 'var';
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: $black;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Block */
+@import 'blocks/_container';
+@import 'blocks/_header';
+@import 'blocks/_user';
