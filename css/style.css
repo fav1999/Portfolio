@@ -94,12 +94,48 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__inner {
   display: flex;
+  padding-bottom: 120px;
+  padding-top: 100px;
+  border-bottom: 1px solid rgba(106, 105, 107, 0.3);
+}
+
+.intro__subtitle {
+  font-size: 3.2rem;
+  color: #2b2a2c;
+  font-weight: 200;
 }
 
 .intro__content {
   width: 50%;
 }
 
+.intro__title {
+  margin-bottom: 0.5rem;
+  font-size: 4.5rem;
+  color: #2b2a2c;
+  font-weight: 700;
+}
+
+.intro__text {
+  margin-bottom: 25px;
+  font-weight: 1.8rem;
+  color: rgba(43, 42, 44, 0.7);
+}
+
 .intro__photo {
   width: 50%;
+}
+
+.social {
+  display: flex;
+  margin-bottom: 42px;
+}
+
+.social__link {
+  margin-right: 10px;
+  text-decoration: none;
+  transition: transform 0.2s linear;
+}
+.social__link:hover {
+  transform: translateY(-5px);
 }/*# sourceMappingURL=style.css.map */
