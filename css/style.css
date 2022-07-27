@@ -9,6 +9,10 @@ body {
   color: #2b2a2c;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 *,
 *:before,
 *:after {
@@ -86,4 +90,16 @@ body {
 .nav__link--btn {
   background-color: #2b2a2c;
   color: #fff;
+}
+
+.intro__inner {
+  display: flex;
+}
+
+.intro__content {
+  width: 50%;
+}
+
+.intro__photo {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
