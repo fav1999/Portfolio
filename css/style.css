@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 120px;
   padding-top: 100px;
   border-bottom: 1px solid rgba(106, 105, 107, 0.3);
+  position: relative;
 }
 
 .intro__subtitle {
@@ -128,14 +129,44 @@ h1, h2, h3, h4, h5, h6 {
 
 .social {
   display: flex;
-  margin-bottom: 42px;
+  margin-bottom: 4.2rem;
 }
 
 .social__link {
-  margin-right: 10px;
+  margin-right: 2.7rem;
   text-decoration: none;
   transition: transform 0.2s linear;
 }
 .social__link:hover {
   transform: translateY(-5px);
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1.2rem 2rem;
+  min-width: 100px;
+  border: 1px solid #6a696b;
+  border-radius: 30px;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.2s linear, color 0.2s linear, box-shadow 0.2s linear;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:hover {
+  background-color: #2b2a2c;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
+  color: #fff;
+}
+.btn + .btn {
+  margin-left: 0.5rem;
 }/*# sourceMappingURL=style.css.map */
