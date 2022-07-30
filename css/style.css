@@ -9,7 +9,12 @@ body {
   color: #2b2a2c;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -148,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: top;
   padding: 1.2rem 2rem;
   min-width: 100px;
-  border: 1px solid #6a696b;
+  border: 1px solid rgba(106, 105, 107, 0.25);
   border-radius: 30px;
   background: none;
   cursor: pointer;
@@ -171,4 +176,71 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn + .btn {
   margin-left: 0.5rem;
+}
+
+.works {
+  padding: 4.1rem 0;
+}
+
+.works__nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.works__nav-link {
+  margin: 0 1.8rem;
+  font-size: 1.2rem;
+  color: rgba(43, 42, 44, 0.7);
+  text-decoration: none;
+}
+.works__nav-link:hover {
+  text-decoration: underline;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1.5rem;
+}
+
+.portfolio__col {
+  flex-basis: 33.333%;
+  padding: 1.5rem;
+}
+
+.work {
+  overflow: hidden;
+  border-radius: 10px;
+  transition: box-shadow 0.2s linear;
+  border: 1px solid rgba(106, 105, 107, 0.25);
+}
+.work:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.work__image {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+.work__content {
+  padding: 1.5rem 1.2rem;
+}
+
+.work__cat {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #2b2a2c;
+  text-transform: uppercase;
+}
+
+.work__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

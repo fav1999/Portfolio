@@ -1,24 +1,29 @@
 @import 'var';
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    color: $black;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: $black;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Block */
@@ -29,3 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 @import 'blocks/_intro';
 @import 'blocks/_social';
 @import 'blocks/_btn';
+@import 'blocks/_works';
+@import 'blocks/_portfolio';
+@import 'blocks/_work';

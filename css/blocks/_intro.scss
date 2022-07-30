@@ -1,37 +1,36 @@
-
 .intro__inner {
-    display: flex;
-    padding-bottom: 120px;
-    padding-top: 100px;
-    border-bottom: 1px solid rgba($gray, 0.3);
-    position: relative;
+  display: flex;
+  padding-bottom: 120px;
+  padding-top: 100px;
+  border-bottom: 1px solid rgba($gray, 0.3);
+  position: relative;
 }
 
-.intro__subtitle{
-    font-size: 3.2rem;
-    color: $black;
-    font-weight: 200;    
+.intro__subtitle {
+  font-size: 3.2rem;
+  color: $black;
+  font-weight: 200;
 }
 
 .intro__content {
-    width: 50%;
+  width: 50%;
 }
 
 .intro__title {
-    margin-bottom: 0.5rem;
-    font-size: 4.5rem;
-    color: $black;
-    font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 4.5rem;
+  color: $black;
+  font-weight: 700;
 }
 
 .intro__text {
-    margin-bottom: 25px;
-    font-weight: 1.8rem;
-    color: rgba($black, .7);
+  margin-bottom: 25px;
+  font-weight: 1.8rem;
+  color: rgba($black, 0.7);
 }
 
 .intro__photo {
-    position: absolute;
-    bottom: -1px;
-    right: 0;
+  position: absolute;
+  bottom: -1px;
+  right: 0;
 }
