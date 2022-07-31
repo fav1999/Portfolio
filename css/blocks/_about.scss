@@ -1,0 +1,43 @@
+//126
+.about {
+  margin: 12rem 0;
+}
+
+.about__inner {
+  display: flex;
+  max-width: 1090px;
+}
+
+.about__photo {
+  width: 50%;
+}
+
+.about__content {
+  width: 50%;
+}
+
+.about__title {
+  padding-left: 0.5rem;
+  font-size: 4.5rem;
+  color: $black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about__bigtitle {
+  margin-bottom: 2.1rem;
+  font-size: 9.2rem;
+  line-height: 1;
+  color: rgba($black, 0.15);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about__text {
+  padding: 0 1rem;
+  margin-bottom: 4rem;
+  font-size: 1.3rem;
+  line-height: 2;
+  color: $gray;
+  font-weight: 300;
+}
