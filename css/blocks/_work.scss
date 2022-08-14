@@ -3,6 +3,7 @@
   border-radius: 10px;
   transition: box-shadow 0.2s linear;
   border: 1px solid rgba($gray, 0.25);
+  min-height: 330px;
 
   &:hover {
     box-shadow: 0 0 10px rgba(#000, 0.25);
