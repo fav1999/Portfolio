@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio</title>
   </head>
@@ -20,11 +21,11 @@
         <div class="header__inner">
           <div class="user">
             <div class="user__avatar">
-              <img src="https://placehold.co/57" alt="Логотип" />
+              <img height="57" width="57" src="/images/moon_button.png" alt="Логотип" />
             </div>
             <div class="user__content">
               <div class="user__name">Федоров<br />Александр</div>
-              <div class="user__prof">Data Analyst / Frontend Developer</div>
+              <div class="user__prof">Data Analyst</div>
             </div>
           </div>
           <nav class="nav">
@@ -36,7 +37,7 @@
               class="nav__link nav__link--btn"
               href="https://wa.me/79614821339?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!"
               target="_blank"
-              >напиши мне</a
+              >написать мне</a
             >
           </nav>
         </div>
@@ -50,7 +51,7 @@
           <div class="intro__content">
             <h2 class="intro__subtitle">Привет, я</h2>
             <h1 class="intro__title">Александр</h1>
-            <div class="intro__text">Data Analyst &amp; Frontend Developer</div>
+            <div class="intro__text">Data Analyst</div>
             <div class="social">
               <a class="social__link" href="https://github.com/fav1999" target="_blank">
                 <img width="30" height="30" src="/images/github.svg" alt="github" />
@@ -76,7 +77,7 @@
               class="btn"
               href="https://wa.me/79614821339?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!"
               target="_blank"
-              >напиши мне</a
+              >написать мне</a
             >
             <button class="btn" type="button">мое резюме</button>
           </div>
@@ -92,20 +93,18 @@
       <div class="container">
         <div class="works__nav">
           <a class="works__nav-link" href="#">All</a>
-          <a class="works__nav-link" href="#">App</a>
-          <a class="works__nav-link" href="#">Websites</a>
-          <a class="works__nav-link" href="#">Interaction</a>
+          <a class="works__nav-link" href="#">Google Sheets</a>
+          <a class="works__nav-link" href="#">Python</a>
+          <a class="works__nav-link" href="#">SQL</a>
+          <a class="works__nav-link" href="#">Visualization</a>
         </div>
         <div class="portfolio">
           <div class="portfolio__col">
             <div class="work">
               <img class="work__image" src="https://placehold.co/300x200" alt="" />
               <div class="work__content">
-                <div class="work__cat">Анализ данных</div>
-                <div class="work__title">
-                  Система планирования отпусков
-                  <time class="work__date" datetime="2022-07-20">2022</time>
-                </div>
+                <div class="work__cat">Google Sheets, Python</div>
+                <div class="work__title">Система планирования отпусков</div>
               </div>
             </div>
           </div>
@@ -113,11 +112,8 @@
             <div class="work">
               <img class="work__image" src="https://placehold.co/300x200" alt="" />
               <div class="work__content">
-                <div class="work__cat">Анализ данных</div>
-                <div class="work__title">
-                  Аналитика работы такси
-                  <time class="work__date" datetime="2022-07-20">2022</time>
-                </div>
+                <div class="work__cat">Python</div>
+                <div class="work__title">Аналитика работы такси</div>
               </div>
             </div>
           </div>
@@ -126,10 +122,7 @@
               <img class="work__image" src="https://placehold.co/300x200" alt="" />
               <div class="work__content">
                 <div class="work__cat">SQL</div>
-                <div class="work__title">
-                  Бронирование (авиаперелеты)
-                  <time class="work__date" datetime="2022-07-20">2022</time>
-                </div>
+                <div class="work__title">Бронирование (авиаперелеты)</div>
               </div>
             </div>
           </div>
@@ -137,11 +130,8 @@
             <div class="work">
               <img class="work__image" src="https://placehold.co/300x200" alt="" />
               <div class="work__content">
-                <div class="work__cat">Анализ данных</div>
-                <div class="work__title">
-                  Бронирование отелей
-                  <time class="work__date" datetime="2022-07-20">2022</time>
-                </div>
+                <div class="work__cat">Python</div>
+                <div class="work__title">Бронирование отелей</div>
               </div>
             </div>
           </div>
@@ -149,11 +139,8 @@
             <div class="work">
               <img class="work__image" src="https://placehold.co/300x200" alt="" />
               <div class="work__content">
-                <div class="work__cat">категория</div>
-                <div class="work__title">
-                  Название проекта
-                  <time class="work__date" datetime="2022-07-20">2022</time>
-                </div>
+                <div class="work__cat">Visualization</div>
+                <div class="work__title">Название проекта</div>
               </div>
             </div>
           </div>
@@ -161,11 +148,8 @@
             <div class="work">
               <img class="work__image" src="https://placehold.co/300x200" alt="" />
               <div class="work__content">
-                <div class="work__cat">категория</div>
-                <div class="work__title">
-                  Название проекта
-                  <time class="work__date" datetime="2022-07-20">2022</time>
-                </div>
+                <div class="work__cat">Visualization</div>
+                <div class="work__title">Название проекта</div>
               </div>
             </div>
           </div>
@@ -181,7 +165,7 @@
       <div class="container">
         <div class="about__inner">
           <div class="about__photo"></div>
-          <div class="about__content">
+          <div data-aos="fade-left" class="about__content">
             <h3 class="about__title">обо мне</h3>
             <h2 class="about__bigtitle">кто я</h2>
             <div class="about__text">
@@ -205,7 +189,7 @@
               class="btn"
               href="https://wa.me/79614821339?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!"
               target="_blank"
-              >напиши мне</a
+              >написать мне</a
             >
             <button class="btn" type="button">мое резюме</button>
           </div>
@@ -215,5 +199,9 @@
       </div>
       <!-- /.conteiner -->
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -3,7 +3,7 @@
   border-radius: 10px;
   transition: box-shadow 0.2s linear;
   border: 1px solid rgba($gray, 0.25);
-  min-height: 330px;
+  min-height: 100%;
 
   &:hover {
     box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -22,9 +22,9 @@
 
 .work__cat {
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: $black;
-  text-transform: uppercase;
+  //text-transform: uppercase;
 }
 
 .work__title {
